@@ -1,0 +1,143 @@
+/* the whole css html hierarchy is cooked*/
+/* everything for homehtmls */
+html {
+    scroll-behavior: smooth; 
+    min-height: 300vh;
+
+}
+
+.homepage {
+    margin: 0;
+    padding: 0;
+
+    /* border: 2px solid red; Standard solid red line */
+
+}
+.container, .maincontent, .content {
+    border: 2px solid red;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items:center;
+    width: 100vw; /* Add this line to make it full width */
+    background-image: url('images/portfolio-pic2.JPEG');
+    background-size: cover;
+}
+
+.maincontent {
+    min-height: 100vh;
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* fix the width */
+.content {
+    flex: 1;
+    padding-left:23vw;
+    padding-top:30vh;
+    width: 50vh;
+    height: 50vh;
+    flex-direction: column;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text {
+    background-color: rgba(143, 232, 228, 0.3);
+}
+.blist button{
+    margin: 20px;
+    background-color: goldenrod;
+    padding: 25px 100px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: auto;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.blist {
+    display: flex;
+    flex-direction: column;
+    margin: top 20px;
+    gap: 50px;
+}
+.notcontent {
+    margin-top: auto;
+    height: 60px;
+    /* background-color: burlywood; */
+    /* width: 100vw; */
+    flex-direction: column;
+    display: flex;
+    font-size: 25px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height:30px;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 100vw;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 0;
+}
+
+.header nav {
+    display: flex;
+    gap: 30vw;
+}
+
+.container .header nav a:link{
+    text-decoration: none;
+    color:red
+}
+
+.container .header nav a:visited {
+    text-decoration: none;
+    color:black
+}
+
+.container .header nav a:hover {
+    text-decoration: none;
+    color:blue
+}
+
+.colored {
+    text-decoration: none;
+    color:yellow
+}
+
+/* .footer .div{
+    background-color: rgba(143, 232, 228, 0.3);
+} */
+
+/* .shrekimage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shrekimage img {
+    margin: 35px;
+} */
+
+/* .shrekpg {
+    border: 2px solid;
+    padding: 30px;
+    margin: 20px;
+    background-color: bisque;
+} */

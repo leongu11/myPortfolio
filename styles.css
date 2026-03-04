@@ -1,0 +1,59 @@
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 1%;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.maincontent {
+    min-height: 93vh;
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+
+}
+
+.content {
+    flex-direction: column;
+    flex: 3;
+    display: flex;
+
+    background-color: lightseagreen;
+
+    font-size: 100px;
+}
+
+.sidebar {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    
+    background-color: cornflowerblue;
+
+    font-size: 30px;
+}
+.notcontent {
+
+    height: 60px;
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+
+    background-color:crimson;
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
